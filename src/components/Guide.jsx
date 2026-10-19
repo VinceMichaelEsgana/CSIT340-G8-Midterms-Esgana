@@ -15,6 +15,11 @@ function Guide() {
           git branch -M main
         </code>
       </section>
+      <section
+        title="Connect"
+            description="Links this local project to your forked repository on GitHub, under the name origin."
+            command="git remote add origin https://github.com/VinceMichaelEsgana/CSIT340-G8-Midterms-Esgana.git"
+     />
       <section className="border-t border-[#C9996B] py-3">
         <h3 className="text-2xl font-bold">Upload</h3>
         <p className="mt-1 text-xl">Sends the main branch to the remote named origin.</p>
